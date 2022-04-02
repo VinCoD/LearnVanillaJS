@@ -5,6 +5,6 @@ let MyPets = [{name:"Meowsalot", species:"cat", age:2}, {name: "Barksalot", spec
 let pets = MyPets.map(NamPets);
 
 function NamPets(x){
-  return x.name
+  return x.species
 }
  console.log(pets);
